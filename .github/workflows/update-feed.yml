@@ -1,0 +1,93 @@
+name: Publish update feed
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    if: ${{ !github.event.release.prerelease }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out update server
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Validate release tag
+        id: release
+        shell: bash
+        run: |
+          tag="$GITHUB_REF_NAME"
+          if [[ ! "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Expected a stable semantic version tag such as v1.3.1; got: $tag" >&2
+            exit 1
+          fi
+          version="${tag#v}"
+          asset="Storyboard_AI_Studio_Pro_v${version}.zip"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "asset=$asset" >> "$GITHUB_OUTPUT"
+
+      - name: Download and verify release package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.release.outputs.tag }}
+          ASSET: ${{ steps.release.outputs.asset }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/release"
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "$ASSET" --dir "$RUNNER_TEMP/release"
+          test -s "$RUNNER_TEMP/release/$ASSET"
+
+      - name: Generate latest.json
+        env:
+          VERSION: ${{ steps.release.outputs.version }}
+          ASSET: ${{ steps.release.outputs.asset }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          REPO: ${{ github.repository }}
+          RELEASE_DIR: ${{ runner.temp }}/release
+        run: |
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+
+          asset = os.environ["ASSET"]
+          archive = Path(os.environ["RELEASE_DIR"]) / asset
+          manifest = {
+              "version": os.environ["VERSION"],
+              "release_name": f"Storyboard_AI_Studio_Pro_v{os.environ['VERSION']}",
+              "installer": f"https://github.com/{os.environ['REPO']}/releases/latest/download/{asset}",
+              "bytes": archive.stat().st_size,
+              "sha256": hashlib.file_digest(archive.open("rb"), "sha256").hexdigest().upper(),
+              "release_notes": [
+                  line.lstrip("-* ").strip()
+                  for line in os.environ.get("RELEASE_BODY", "").splitlines()
+                  if line.strip()
+              ],
+          }
+          Path("latest.json").write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Attach fallback manifest to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.release.outputs.tag }}
+        run: gh release upload "$TAG" latest.json --repo "$GITHUB_REPOSITORY" --clobber
+
+      - name: Publish manifest on the default branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add latest.json
+          if git diff --cached --quiet; then
+            echo "latest.json is already current"
+            exit 0
+          fi
+          git commit -m "Update feed for ${{ steps.release.outputs.tag }}"
+          git push origin HEAD:refs/heads/main
