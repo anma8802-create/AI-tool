@@ -1,0 +1,12 @@
+{
+  "version": "1.3.1",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.1",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.1.zip",
+  "bytes": 221318684,
+  "sha256": "9AE84220F3A8022CF70AEDF791D0F1AA40EB0F71EC10AEF5CBA9D4CF61D9D5EF",
+  "release_notes": [
+    "Chuyển nguồn cập nhật Storyboard AI sang GitHub Releases của anma8802-create/AI-tool.",
+    "Kiểm tra phiên bản mới qua latest.json và xác minh kích thước, SHA-256 của gói cập nhật.",
+    "Sửa vị trí khai báo tham số trong công cụ cập nhật PowerShell."
+  ]
+}
