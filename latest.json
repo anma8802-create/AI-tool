@@ -1,12 +1,12 @@
 {
-  "version": "1.3.4",
-  "release_name": "Storyboard_AI_Studio_Pro_v1.3.4",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.4.zip",
-  "bytes": 221446842,
-  "sha256": "9B0042136D6DD59F2A27DEAA905C359889E81EFC14DE0C23AB4A12C3A37C6900",
+  "version": "1.3.5",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.5",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.5.zip",
+  "bytes": 221460723,
+  "sha256": "E6A881D10241E3C876E3B451AD37554504746D324C1486404406FD2E6A6D0819",
   "release_notes": [
-    "Fix the update button returning HTTP 500 before starting the updater.",
-    "Use the official public GitHub update channel.",
-    "Preserve local accounts and projects during update."
+    "One-click updates without hidden Windows confirmation dialogs.",
+    "Show download and installation progress in the update button.",
+    "Prevent duplicate updates and preserve local accounts and projects."
   ]
 }
