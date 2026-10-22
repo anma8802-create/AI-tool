@@ -1,12 +1,12 @@
 {
-  "version": "1.3.6",
-  "release_name": "Storyboard_AI_Studio_Pro_v1.3.6",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.6.zip",
-  "bytes": 286126058,
-  "sha256": "FD14718AA254241F8D45BDD59AFCA85B6AEC7B805F0C48C8ABAC5D4798324EBF",
+  "version": "1.3.7",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.7",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.7.zip",
+  "bytes": 286166596,
+  "sha256": "EEFCFCA2CCBC7B09C4D876CC4A1A17E100E327D8A1C69A8EB0CB1B4729D21419",
   "release_notes": [
-    "Include the isolated Muse core and login helper on every updated PC.",
-    "Resolve Muse runtime paths independently of the developer computer.",
-    "Preserve the existing interface, local accounts and projects."
+    "Include the cinematic production pipeline omitted from previous packages.",
+    "Fix ModuleNotFoundError before starting Muse scene production.",
+    "Preserve the existing interface, accounts and projects."
   ]
 }
