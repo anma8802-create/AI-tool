@@ -1,12 +1,12 @@
 {
-    "version":  "1.3.3",
-    "release_name":  "Storyboard_AI_Studio_Pro_v1.3.3",
-    "installer":  "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.3.zip",
-    "bytes":  221442432,
-    "sha256":  "9DE735B0978E615A2D0E7B2270A9FB7AB0FD4FB9FD332EF5E18D2F4398195619",
-    "release_notes":  [
-                          "Storyboard AI Studio Pro 1.3.3.",
-                          "Dong bo goi da phat hanh vao kenh cap nhat cong khai.",
-                          "Giu nguyen tai khoan va du an cua may cai dat."
-                      ]
+  "version": "1.3.4",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.4",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.4.zip",
+  "bytes": 221446842,
+  "sha256": "9B0042136D6DD59F2A27DEAA905C359889E81EFC14DE0C23AB4A12C3A37C6900",
+  "release_notes": [
+    "Fix the update button returning HTTP 500 before starting the updater.",
+    "Use the official public GitHub update channel.",
+    "Preserve local accounts and projects during update."
+  ]
 }
