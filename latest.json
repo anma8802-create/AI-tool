@@ -1,12 +1,16 @@
 {
-    "version":  "1.3.9",
-    "release_name":  "Storyboard_AI_Studio_Pro_v1.3.9",
-    "installer":  "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.9.zip",
-    "bytes":  286169202,
-    "sha256":  "37258C170121D085B4118E936DA4C7BD6BE7C93869793DF0EEE510ED0E7966D1",
-    "release_notes":  [
-                          "One-click updater ignores stale Raw CDN manifests.",
-                          "Compare both official manifests and choose the newest valid version.",
-                          "Preserve Muse fixes, accounts, projects and existing pipeline."
-                      ]
+  "version": "1.3.11",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.11",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.11.zip",
+  "bytes": 286260805,
+  "sha256": "8602CCF36A37D5309C7C31D181C72EB0C8658D7F191D3B4E91AE2E08FB0C304B",
+  "release_notes": [
+    "Built from the newest source on main desktop DESKTOP-EE8BGVF, based on previously published 1.3.9 runtime.",
+    "Updated UI index.html, app.js, style.css, and matching web-server API from the main installation.",
+    "Integrated write-video-scene-prompts nine-field planning skill and episode continuity.",
+    "Balanced CPU/GPU rendering with NVENC capability detection and CPU fallback.",
+    "Preserved packaged Muse CLI, Flow MCP V2, authentication engines and runtime. No direct provider logic edits.",
+    "User credentials, accounts, cookies, productions and local state are not taken from the main machine.",
+    "Installer is an update ZIP for the existing one-click updater, not a new EXE build."
+  ]
 }
