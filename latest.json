@@ -1,15 +1,14 @@
 {
-  "version": "1.3.12",
-  "release_name": "Storyboard_AI_Studio_Pro_v1.3.12",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.12.zip",
-  "bytes": 286396672,
-  "sha256": "3DF0DE3795FE2E8A3A9305E10ACB72156241FA8579AD448AC93EA218D1D3C343",
+  "version": "1.3.13",
+  "release_name": "Storyboard_AI_Studio_Pro_v1.3.13",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.13.zip",
+  "bytes": 286424397,
+  "sha256": "7857C554BAF6875119B2EF7436256268B650F523DAC69F95ADF2F4DD2D4782C0",
   "release_notes": [
-    "Hỗ trợ phân cảnh 5 giây (5s Pacing) cho chế độ Kể Chuyện (Narrative) cả video ngắn 1 phút và video dài.",
-    "Tự động tính toán đúng số cảnh và ngân sách ảnh theo thời lượng (1 phút = 12 ảnh, 5 phút = 60 ảnh, 10 phút = 120 ảnh).",
-    "Đồng bộ trọn bộ 7 kỹ năng AI chuyên biệt độc lập (.agents/skills) cho Kể Chuyện, Phim Kịch, Shorts 9:16 và Thumbnail 3D.",
-    "Thiết kế Thumbnail 3D màu vàng kim hoàng gia / cam hổ phách rực rỡ bắt mắt, Google Flow tự vẽ 3D và tự khử watermark.",
-    "Chuẩn hóa cấu hình đăng bài YouTube: đúng ngôn ngữ và chứng nhận phụ đề FCC.",
-    "Tích hợp bộ kiểm thử E2E tự động xác thực toàn diện tiến trình sản xuất."
+    "Công thức Thumbnail 3 màu đỉnh cao: Vàng kim hoàng gia (#FFD700) + Đỏ thẫm điện ảnh (#DC2626) + Trắng tinh khiết titan (#FFFFFF).",
+    "Đạt điểm kiểm định VidIQ 100/100 (A+ Viral Master) thực chiến cho chủ thể nghệ thuật và vùng an toàn UI.",
+    "Bộ lọc mô tả siêu sạch: quét sạch 100% link đối thủ và cảnh báo bản quyền rác của đối thủ.",
+    "Giới hạn chuẩn mực đúng 3 đến 5 hashtag ở dòng cuối cùng, triệt tiêu hoàn toàn tình trạng tường hashtag rác.",
+    "Sửa triệt để lỗi NameError lang trong bộ tạo gói xuất bản SEO và cập nhật trọn bộ 7 kỹ năng chuyên sâu."
   ]
 }
