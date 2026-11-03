@@ -1,14 +1,9 @@
 {
-  "version": "1.3.13",
-  "release_name": "Storyboard_AI_Studio_Pro_v1.3.13",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.13.zip",
-  "bytes": 286424397,
-  "sha256": "7857C554BAF6875119B2EF7436256268B650F523DAC69F95ADF2F4DD2D4782C0",
-  "release_notes": [
-    "Công thức Thumbnail 3 màu đỉnh cao: Vàng kim hoàng gia (#FFD700) + Đỏ thẫm điện ảnh (#DC2626) + Trắng tinh khiết titan (#FFFFFF).",
-    "Đạt điểm kiểm định VidIQ 100/100 (A+ Viral Master) thực chiến cho chủ thể nghệ thuật và vùng an toàn UI.",
-    "Bộ lọc mô tả siêu sạch: quét sạch 100% link đối thủ và cảnh báo bản quyền rác của đối thủ.",
-    "Giới hạn chuẩn mực đúng 3 đến 5 hashtag ở dòng cuối cùng, triệt tiêu hoàn toàn tình trạng tường hashtag rác.",
-    "Sửa triệt để lỗi NameError lang trong bộ tạo gói xuất bản SEO và cập nhật trọn bộ 7 kỹ năng chuyên sâu."
-  ]
+  "version": "1.3.14",
+  "package_name": "Storyboard_AI_Studio_Pro_v1.3.14.zip",
+  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.14/Storyboard_AI_Studio_Pro_v1.3.14.zip",
+  "bytes": 286429099,
+  "sha256": "AC00B6FDB748BCCDC64E1B6A0B8289E7306CEF9DA58096B19A81D27DCC11C0F5",
+  "release_date": "2026-11-04",
+  "release_notes": "Sửa triệt để cấu hình xuất bản YouTube: chuẩn hóa mã ngôn ngữ BCP-47 (defaultLanguage/defaultAudioLanguage), cơ chế tự động thử lại khi tải Thumbnail (chống lỗi rỗng ảnh), và hướng dẫn chi tiết tắt phối lại Shorts mặc định trên YouTube Studio."
 }
