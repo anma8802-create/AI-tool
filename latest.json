@@ -1,17 +1,30 @@
 {
-  "version": "1.3.16",
+  "version": "1.3.18",
   "app_name": "Storyboard AI Studio Pro",
   "release_date": "2026-11-04",
-  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.16/Storyboard_AI_Studio_Pro_v1.3.16.zip",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.16/Storyboard_AI_Studio_Pro_v1.3.16.zip",
-  "sha256": "9b8ad6ebb200d7efcfb77155be1817fc359039aea12be1cf4debfa4c5bf4f019",
-  "size_bytes": 286450159,
-  "bytes": 286450159,
+  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
+  "url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
+  "fallback_urls": [
+    "https://github.com/namnguyen188-1/story-board-Ai/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip"
+  ],
+  "sha256": "3ad6eb480bec2ea6b84747a14660c87b91782a7896514d3f92c4f99adeca310b",
+  "size_bytes": 286458909,
+  "bytes": 286458909,
+  "release_notes": [
+    "Chuan hoa 100% Muc Y Tuong theo The Loai: Tach rieng logic Hook Mo Man Canh 1 & Canh Ket theo tung the loai (Family Drama, Romance, Whiteboard, Animation, Crime Mafia, Horror, Stoic).",
+    "Khu triet de hien tuong ep vu khi dao sung mau me, danh dam vao Drama gia dinh va Ngon tinh lang man.",
+    "Nap truc tiep dac ta chuan the loai (ART[genre]) vao ham make_bible() giup AI tao nhan vat va the gioi dong bo 100% tu Canh 1 den Canh cuoi.",
+    "Phan luong prompt ve anh doc lap trong mcp_v2_batch.py: Whiteboard khoa net but da tren bang trang After Skool (khu anh chup nguoi that 8k), Animation khoa net 3D Pixar/Disney CGI.",
+    "The goi y cot truyen dong (Dynamic Hint Chips) tren Web UI tu dong bien doi theo The Loai da chon.",
+    "Tich hop nut 1-Click 'Goi Y Y Tuong' tu dong dien cot truyen trieu view chuan the loai vao o nhap lieu."
+  ],
   "changelog": [
-    "Sua triet de loi nua tuong nua nguoi cho the loai Khac Ky (Stoic): Khoa 100% tat ca cac canh thanh Tuong da Carrara nguyen khoi va dong co dien, loai bo hoan toan cac thuoc tinh da nguoi/mach mau (vascular arms, real skin).",
-    "Tach biet tuyet doi quy tac Khac Ky: Khong lam anh huong hay ap dat quy tac tuong da len cac the loai khac (Phim Kich Da Vai, Ke Chuyen, Bang Trang, Hoat Hinh).",
-    "Sua loi hien thi ket noi WebTool Google Flow: Nhan dien tu dong Chrome Google Flow dang hoat dong tren cong 9461, chuyen ngay trang thai sang 🟢 San sang (thay vi bao do Chua ket noi / Offline).",
-    "Tu dong kich hoat FlowKit Gateway ngam khi Chrome mo, dong bo nhan thanh cong cu va hop trang thai khong bi xung dot.",
-    "Cap nhat dong bo toan bo prompt cac phan canh hien tai thanh tuong da Carrara chuan xac 100%."
+    "Chuẩn hóa 100% Mục Ý Tưởng theo Thể Loại: Tách riêng logic Hook Mở Màn Cảnh 1 & Cảnh Kết theo từng thể loại (Family Drama, Romance, Whiteboard, Animation, Crime Mafia, Horror, Stoic).",
+    "Khử triệt để hiện tượng ép vũ khí dao súng máu me, đánh đấm vào Drama gia đình và Ngôn tình lãng mạn.",
+    "Nạp trực tiếp đặc tả chuẩn thể loại (ART[genre]) vào hàm make_bible() giúp AI tạo nhân vật và thế giới đồng bộ 100% từ Cảnh 1 đến Cảnh cuối.",
+    "Phân luồng prompt vẽ ảnh độc lập trong mcp_v2_batch.py: Whiteboard khóa nét bút dạ trên bảng trắng After Skool (khử ảnh chụp người thật 8k), Animation khóa nét 3D Pixar/Disney CGI.",
+    "Thẻ gợi ý cốt truyện động (Dynamic Hint Chips) trên Web UI tự động biến đổi theo Thể Loại đã chọn.",
+    "Tích hợp nút 1-Click '✨ Gợi Ý Ý Tưởng' tự động điền cốt truyện triệu view chuẩn thể loại vào ô nhập liệu."
   ]
 }
