@@ -1,14 +1,19 @@
 {
-  "version": "1.3.14",
-  "release_name": "Storyboard_AI_Studio_Pro_v1.3.14",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.14.zip",
-  "download_url": "https://github.com/anma8802-create/AI-tool/releases/latest/download/Storyboard_AI_Studio_Pro_v1.3.14.zip",
-  "bytes": 286430398,
-  "sha256": "BF6175C56E47F3D2163C349C835A5552F102B39F6856B4E4CD96A498B63824CC",
-  "release_notes": [
-    "Sua triet de cau hinh xuat ban YouTube: chuan hoa ma ngon ngu BCP-47 (defaultLanguage/defaultAudioLanguage), khong con lech tieng hay de trong.",
-    "Xoa sach 100% hinh qua tram (logo ngoi sao watermark 4 canh cua Google Flow / Imagen) tren anh Thumbnail bang thuat toan Inpainting Navier-Stokes da tang.",
-    "Co che tu dong thu lai khi tai Thumbnail (Exponential Backoff Retry 4 lan), triet tieu loi anh thumbnail bi trong khi may chu YouTube xu ly cham.",
-    "Tu dong luu va huong dan chi tiet cach tat phoi lai Shorts mac dinh 1 lan duy nhat cho toan kenh tren YouTube Studio."
+  "version": "1.3.15",
+  "app_name": "Storyboard AI Studio Pro",
+  "release_date": "2026-11-04",
+  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.15/Storyboard_AI_Studio_Pro_v1.3.15.zip",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.15/Storyboard_AI_Studio_Pro_v1.3.15.zip",
+  "sha256": "a6f426b41b1b20220c7bc304e1b6103301dfe4fc32bc791b80eae3130d81596c",
+  "size_bytes": 286447201,
+  "bytes": 286447201,
+  "changelog": [
+    "Sửa lỗi máy phụ không đăng nhập được Google Flow (loại bỏ triệt để Session 0 isolation và WinSta0\\Default Access Denied).",
+    "Trình duyệt Chrome mở trực tiếp trên màn hình tương tác của người dùng qua ShellExecuteW và subprocess.Popen.",
+    "Bổ sung tham số --disable-blink-features=AutomationControlled chống Google chặn đăng nhập trên trình duyệt tự động.",
+    "Tự động quét và tìm kiếm Chrome trong Registry HKLM/HKCU và tất cả ổ đĩa (fallback Edge nếu chưa cài Chrome).",
+    "Nâng cấp khởi động tự động FlowKit Gateway qua Start_API.vbs, launcher.py và tìm kiếm Python đa đường dẫn.",
+    "Đồng bộ chính xác cổng CDP (9461/9462) và lưu trữ email tài khoản sau khi đăng nhập thành công.",
+    "Tự động chuẩn hóa và xóa bỏ các đường dẫn tuyệt đối máy chính (C:\\Users\\thean) đảm bảo tính tương thích 100% trên máy phụ."
   ]
 }
