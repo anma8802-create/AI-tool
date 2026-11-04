@@ -2,20 +2,22 @@
   "version": "1.3.18",
   "app_name": "Storyboard AI Studio Pro",
   "release_date": "2026-11-04",
-  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
-  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
   "url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
+  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip",
   "fallback_urls": [
     "https://github.com/namnguyen188-1/story-board-Ai/releases/download/v1.3.18/Storyboard_AI_Studio_Pro_v1.3.18.zip"
   ],
-  "sha256": "3ad6eb480bec2ea6b84747a14660c87b91782a7896514d3f92c4f99adeca310b",
-  "size_bytes": 286458909,
-  "bytes": 286458909,
+  "sha256": "72451afe1050e0e7d9d288bcf135089d81a4d4eb86d2fa7f682032cd25f5a550",
+  "size_bytes": 286473602,
+  "bytes": 286473602,
   "release_notes": [
     "Chuan hoa 100% Muc Y Tuong theo The Loai: Tach rieng logic Hook Mo Man Canh 1 & Canh Ket theo tung the loai (Family Drama, Romance, Whiteboard, Animation, Crime Mafia, Horror, Stoic).",
     "Khu triet de hien tuong ep vu khi dao sung mau me, danh dam vao Drama gia dinh va Ngon tinh lang man.",
     "Nap truc tiep dac ta chuan the loai (ART[genre]) vao ham make_bible() giup AI tao nhan vat va the gioi dong bo 100% tu Canh 1 den Canh cuoi.",
     "Phan luong prompt ve anh doc lap trong mcp_v2_batch.py: Whiteboard khoa net but da tren bang trang After Skool (khu anh chup nguoi that 8k), Animation khoa net 3D Pixar/Disney CGI.",
+    "Tich hop Bo Cai Dat Dong Co FlowKit Tu Dong (flowkit_installer.py, Install-FlowKit.ps1) va nut 1-Click tren Web giup may phu setup dong co 100% tron goi khong bi thieu phu thuoc.",
+    "Bao ve tuyet doi Hashtag YouTube: Luon tu dong day du 3-5 hashtag chu de chat luong cao vao noi dung mo ta cho ca video dai 16:9 va Shorts 9:16, khong con bi thieu hashtag khi dang.",
     "The goi y cot truyen dong (Dynamic Hint Chips) tren Web UI tu dong bien doi theo The Loai da chon.",
     "Tich hop nut 1-Click 'Goi Y Y Tuong' tu dong dien cot truyen trieu view chuan the loai vao o nhap lieu."
   ],
@@ -24,6 +26,8 @@
     "Khử triệt để hiện tượng ép vũ khí dao súng máu me, đánh đấm vào Drama gia đình và Ngôn tình lãng mạn.",
     "Nạp trực tiếp đặc tả chuẩn thể loại (ART[genre]) vào hàm make_bible() giúp AI tạo nhân vật và thế giới đồng bộ 100% từ Cảnh 1 đến Cảnh cuối.",
     "Phân luồng prompt vẽ ảnh độc lập trong mcp_v2_batch.py: Whiteboard khóa nét bút dạ trên bảng trắng After Skool (khử ảnh chụp người thật 8k), Animation khóa nét 3D Pixar/Disney CGI.",
+    "Tích hợp Bộ Cài Đặt Động Cơ FlowKit Tự Động (flowkit_installer.py, Install-FlowKit.ps1) và nút 1-Click trên Web giúp máy phụ setup động cơ 100% trọn gói không bị thiếu phụ thuộc.",
+    "Bảo đảm tuyệt đối Hashtag YouTube: Luôn tự động đẩy đủ 3-5 hashtag chủ đề chất lượng cao vào nội dung mô tả cho cả video dài 16:9 và Shorts 9:16, không còn bị thiếu hashtag khi đăng.",
     "Thẻ gợi ý cốt truyện động (Dynamic Hint Chips) trên Web UI tự động biến đổi theo Thể Loại đã chọn.",
     "Tích hợp nút 1-Click '✨ Gợi Ý Ý Tưởng' tự động điền cốt truyện triệu view chuẩn thể loại vào ô nhập liệu."
   ]
