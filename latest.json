@@ -4,14 +4,14 @@
   "release_date": "2026-11-04",
   "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.16/Storyboard_AI_Studio_Pro_v1.3.16.zip",
   "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.16/Storyboard_AI_Studio_Pro_v1.3.16.zip",
-  "sha256": "cb8fbd969a2610408a1f07a4d37b759c8074f3876627a9dd9a69f3352ccfc7ef",
-  "size_bytes": 286449031,
+  "sha256": "9b8ad6ebb200d7efcfb77155be1817fc359039aea12be1cf4debfa4c5bf4f019",
+  "size_bytes": 286450159,
+  "bytes": 286450159,
   "changelog": [
     "Sua triet de loi nua tuong nua nguoi cho the loai Khac Ky (Stoic): Khoa 100% tat ca cac canh thanh Tuong da Carrara nguyen khoi va dong co dien, loai bo hoan toan cac thuoc tinh da nguoi/mach mau (vascular arms, real skin).",
     "Tach biet tuyet doi quy tac Khac Ky: Khong lam anh huong hay ap dat quy tac tuong da len cac the loai khac (Phim Kich Da Vai, Ke Chuyen, Bang Trang, Hoat Hinh).",
     "Sua loi hien thi ket noi WebTool Google Flow: Nhan dien tu dong Chrome Google Flow dang hoat dong tren cong 9461, chuyen ngay trang thai sang 🟢 San sang (thay vi bao do Chua ket noi / Offline).",
     "Tu dong kich hoat FlowKit Gateway ngam khi Chrome mo, dong bo nhan thanh cong cu va hop trang thai khong bi xung dot.",
     "Cap nhat dong bo toan bo prompt cac phan canh hien tai thanh tuong da Carrara chuan xac 100%."
-  ],
-  "bytes": 286449031
+  ]
 }
