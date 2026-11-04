@@ -1,0 +1,17 @@
+{
+  "version": "1.3.17",
+  "app_name": "Storyboard AI Studio Pro",
+  "release_date": "2026-11-04",
+  "download_url": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.17/Storyboard_AI_Studio_Pro_v1.3.17.zip",
+  "installer": "https://github.com/anma8802-create/AI-tool/releases/download/v1.3.17/Storyboard_AI_Studio_Pro_v1.3.17.zip",
+  "sha256": "63b1826925acb14291f2beeac7c68fecdb3e5aa13db7e002d2e4540b538d84a5",
+  "size_bytes": 286452743,
+  "bytes": 286452743,
+  "changelog": [
+    "Sửa triệt để lỗi Chế độ kịch bản không chạy được: Nhận diện linh hoạt mọi định dạng phân cảnh (CẢNH, SHOT, SCENE, PHẦN, ĐOẠN, 1., 2...), tự động phân tách văn bản tự do thành các phân cảnh hoàn chỉnh chuẩn 7s.",
+    "Khắc phục lỗi cố định 20 ảnh: Đồng bộ động thời lượng (15.1 phút) và số giây/cảnh (7s) sang Số Ảnh (inMcpMaxImages), không còn bị đóng băng ở 20 ảnh.",
+    "Sửa triệt để lỗi ảnh Khắc Kỷ (Stoic) nửa tượng nửa người / mất đầu: Chuẩn hóa 100% tượng đá cẩm thạch Carrara nguyên vẹn (đầu tượng, râu tóc, thân ngực và cánh tay tạc đá hoàn chỉnh khoác áo choàng đỏ), loại bỏ hoàn toàn da người thật, lỗ chân lông, gân máu và lỗi mất đầu.",
+    "Đồng bộ trạng thái WebTool Google Flow trên máy phụ: Nhận diện cổng Chrome chính xác, giữ trạng thái Sẵn sàng và loại bỏ báo Offline nhầm.",
+    "Nút 1-Click Dọn dẹp bản cũ và bộ nhớ đệm: Giải phóng gigabyte ổ cứng tự động trên cả máy chính và máy phụ."
+  ]
+}
